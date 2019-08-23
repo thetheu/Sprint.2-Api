@@ -55,9 +55,43 @@ namespace Senai.Filmes.WebApi.Repository
             }
         }
 
+        public GeneroDomain BuscarPorId(int id)
+        {
+            string Query = "SELECT IdGenero, Nome FROM Generos WHERE IdGenero = @IdGenero";
+            // abrir a conexao
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                con.Open();
+                SqlDataReader sdr;
+
+                using (SqlCommand cmd = new SqlCommand(Query, con))
+                {
+                    cmd.Parameters.AddWithValue("@IdGenero", id);
+                    sdr = cmd.ExecuteReader();
+
+                    if (sdr.HasRows)
+                    {
+                        // ler o que tem no sdr
+                        while (sdr.Read())
+                        {
+                            GeneroDomain estilo = new GeneroDomain
+                            {
+                                IdGenero = Convert.ToInt32(sdr["IdGenero"]),
+                                Nome = sdr["Nome"].ToString()
+                            };
+                            return estilo;
+                        }
+                    }
+                    return null;
+
+                    // retornar
+                }
+            }
+        }
+
         public void Atualizar(GeneroDomain generoDomain)
         {
-            string Query = "UPDATE Genero SET Nome = @Nome WHERE IdGenero = @id";
+            string Query = "UPDATE Generos SET Nome = @Nome WHERE IdGenero = @id";
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
                 SqlCommand cmd = new SqlCommand(Query, con);
@@ -69,5 +103,19 @@ namespace Senai.Filmes.WebApi.Repository
 
             }
         }
+
+        public void Deletar(int id)
+        {
+            string Query = "DELETE FROM Generos WHERE IdGenero = @IdGenero";
+            using (SqlConnection con = new SqlConnection(StringConexao))
+
+            using (SqlCommand cmd = new SqlCommand(Query, con))
+            {
+                cmd.Parameters.AddWithValue("@IdGenero", id);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
     }
 }
