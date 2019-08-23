@@ -1,0 +1,14 @@
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BockStore.WebApi.deps.json
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BockStore.WebApi.runtimeconfig.json
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BockStore.WebApi.runtimeconfig.dev.json
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BockStore.WebApi.dll
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.csprojAssemblyReference.cache
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.RazorAssemblyInfo.cache
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.RazorAssemblyInfo.cs
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.AssemblyInfoInputs.cache
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.AssemblyInfo.cs
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\bin\Debug\netcoreapp2.1\Senai.BockStore.WebApi.pdb
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.dll
+C:\Users\44056839808\Documents\Sprint.2-Api\Sprint.2-Api\Senai.BockStore.WebApi\Senai.BockStore.WebApi\obj\Debug\netcoreapp2.1\Senai.BockStore.WebApi.pdb
